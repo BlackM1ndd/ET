@@ -3,7 +3,7 @@ package com.example.expense_tracker.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "expense")
+@Table
 public class Expense {
 
     @Id
